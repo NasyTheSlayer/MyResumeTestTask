@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Резюме фронтенд-розробника Nazar Levkovych">
+    <meta name="keywords" content="фронтенд, веб-розробка, резюме">
+    <title>My Resume</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="src/img/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="src/css/styles.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">Nazar Levkovych</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section with Particles -->
+<section class="hero">
+    <div id="particles-js"></div>
+    <div class="container">
+        <h1 class="animate__animated animate__fadeInDown">Nazar Levkovych</h1>
+        <p class="animate__animated animate__fadeInUp">Frontend Developer</p>
+        <a href="#contact" class="btn btn-light mt-3 animate__animated animate__pulse animate__infinite">Зв'язатися</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center animate__animated animate__fadeIn">About me</h2>
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <p class="animate__animated animate__fadeInUp">
+                    I am Front-end Developer with over 2 years of experience in creating responsive and scalable web
+                    applications. Expert in React, Vue, Angular, and Redux, with additional back-end knowledge in
+                    Node.js and PostgreSQL. Demonstrated ability to deliver high-performance solutions, including
+                    developing a modern website for Jinsiders that enhanced user experience and optimized development
+                    processes. Strive to write clean, testable code and stay updated with the latest technologies to
+                    drive innovation and efficiency.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="section-title text-center animate__animated animate__fadeIn">Skills</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>HTML & CSS</p>
+                <div class="progress">
+                    <div class="progress-bar bg-dark animate__animated animate__slideInLeft" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p>JavaScript & jQuery</p>
+                <div class="progress">
+                    <div class="progress-bar bg-dark animate__animated animate__slideInLeft" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p>Bootstrap</p>
+                <div class="progress">
+                    <div class="progress-bar bg-dark animate__animated animate__slideInLeft" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <p>UI/UX Design</p>
+                <div class="progress">
+                    <div class="progress-bar bg-dark animate__animated animate__slideInLeft" style="width: 45%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center animate__animated animate__fadeIn">Professional Experience</h2>
+        <div class="row">
+            <div class="col-md-12 animate__animated animate__fadeInLeft">
+                <h4>Frontend Developer | Insiders</h4>
+                <p>02/2024 – 01/2025 | Lviv, Ukraine</p>
+                <p>
+                    During my tenure at Insiders, I single-handedly developed a modern,
+                    high-performance website from the ground up, transforming a concept into a
+                    responsive, user-friendly application. This solo project allowed me to take full ownership of the
+                    frontend development
+                    lifecycle, from architecting the codebase to implementing automated deployment pipelines. Beyond
+                    this project, I also collaborated with cross-functional
+                    teams on other initiatives, contributing to a variety of web applications. Leveraging cutting-edge
+                    technologies, I ensured top-notch code
+                    quality, seamless performance, and a streamlined development workflow. This experience significantly
+                    enhanced my expertise in modern web development,
+                    testing, and deployment automation.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center animate__animated animate__fadeIn">Portfolio</h2>
+        <div class="portfolio-row" style="justify-content: center;">
+            <div class="portfolio-item animate__animated animate__zoomIn" style="animation-delay: 0.1s;">
+                <img src="./public/img/project_1.png" class="img-fluid" alt="Скріншот проєкту NextConnect">
+                <h5 class="mt-2">NextConnect</h5>
+                <p>A platform for seamless authentication and content management using Next.js and MongoDB</p>
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">MongoDB</span>
+            </div>
+            <div class="portfolio-item animate__animated animate__zoomIn" style="animation-delay: 0.2s;">
+                <img src="./public/img/project_2.png" class="img-fluid" alt="Скріншот проєкту React PhoneFleet">
+                <h5 class="mt-2">React PhoneFleet</h5>
+                <p>A React web app with TypeScript, Redux for state management, and SCSS styling. Showcases and manages
+                    a list of mobile products fetched from a RESTful API.</p>
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Redux</span>
+            </div>
+            <div class="portfolio-item animate__animated animate__zoomIn" style="animation-delay: 0.3s;">
+                <img src="./public/img/project_3.png" class="img-fluid" alt="Скріншот проєкту SparkDia Landing">
+                <h5 class="mt-2">SparkDia Landing</h5>
+                <p>Responsive landing page with animations and interactive elements.</p>
+                <span class="tech-tag">HTML/CSS</span>
+                <span class="tech-tag">JavaScript</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="section-title text-center animate__animated animate__fadeIn">Contact me</h2>
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form action="https://formspree.io/f/mqaelzkd" method="POST"
+                      class="contact-form animate__animated animate__fadeInUp">
+                    <input type="text" name="name" class="form-control" placeholder="Yout name" required>
+                    <input type="email" name="email" class="form-control" placeholder="Your email" required>
+                    <textarea name="message" class="form-control" rows="5" placeholder="Your message"
+                              required></textarea>
+                    <button type="submit" class="btn btn-dark w-100 animate__animated"
+                            aria-label="Надіслати повідомлення">Send message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 Nazar Levkovych. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<script src="src/js/main.js"></script>
+<script src="src/js/animations.js"></script>
+<script src="src/js/particles-config.js"></script>
+</body>
+</html>
